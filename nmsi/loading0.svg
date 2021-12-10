@@ -3,7 +3,7 @@
         <g>
         <text x="0" y="50">
             Loading...
-            <animate attributeName="fill" values="rgb(102,45,128);transparent;transparent;rgb(224,34,77);rgb(224,34,77);transparent;transparent;rgb(102,45,128);rgb(102,45,128);" dur="8s" repeatCount="indefinite" />
+            <animate begin=".5s" attributeName="fill" values="rgb(102,45,128);transparent;transparent;rgb(224,34,77);rgb(224,34,77);transparent;transparent;rgb(102,45,128);rgb(102,45,128);" dur="8s" repeatCount="indefinite" />
         </text>
         </g>
 
