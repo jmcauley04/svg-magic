@@ -1,0 +1,40 @@
+<svg viewBox="0 0 140 110" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <g transform="translate(2, 2)" stroke-width="1" stroke="lightgreen" fill="lightgreen" stroke-linecap="round">
+        <path d="M4 4 l 20 0 25 65 70 0 10 -45 -85 0" stroke-width="8" stroke-linecap="round" fill="transparent" />
+        <g transform="translate(55, 95)">
+            <g>
+            <ellipse cx="0" cy="0" rx="10" ry="9.5" />
+            
+            <animateTransform attributeName="transform"
+                        attributeType="XML"
+                        type="rotate"
+                        from="0"
+                        to="360"
+                        dur="2s"
+                        repeatCount="indefinite"/>
+            </g>
+
+            <line x1="20" x2="40" y1="0" y2="0" stroke-width="4" />
+            
+            <g>
+                
+            <ellipse cx="60" cy="0" rx="9.5" ry="10" >
+                </ellipse><animateTransform attributeName="transform"
+                        attributeType="XML"
+                        type="rotate"
+                        from="0 60, 0"
+                        to="360 60, 0"
+                        dur="2s"
+                        repeatCount="indefinite"/>
+            </g>
+            
+        </g>
+
+        <g transform="translate(59 59)" font-size="40">
+            <text >G</text>
+            <text x="25">L</text>
+        </g>
+    </g>
+
+</svg>
