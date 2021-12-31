@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" >
+    
+    <g stroke="#176781" stroke-width="2" fill="transparent">    
+        <g>
+            <path d="M5 18 l12 0 -10 10 12 0">
+                <animateTransform attributeName="transform"
+                    type="scale"
+                    additive="sum" 
+                    from=".4"
+                    to=".2"
+                    begin="0s"
+                    dur="2s"
+                    repeatCount="indefinite"
+                />
+                <animateTransform attributeName="transform" 
+                    type="translate"
+                    additive="sum" 
+                    from="50 -10"
+                    to="110 -20"
+                    begin="0s"
+                    dur="2s"
+                    repeatCount="indefinite"
+                />
+            </path>   
+        </g>    
+        <g>
+            <path d="M5 18 l12 0 -10 10 12 0">
+                <animateTransform attributeName="transform"
+                    type="scale"
+                    additive="sum" 
+                    from=".6"
+                    to=".4"
+                    begin="0s"
+                    dur="2s"
+                    repeatCount="indefinite"
+                />
+                <animateTransform attributeName="transform" 
+                    type="translate"
+                    additive="sum" 
+                    from="15 -2"
+                    to="50 -10"
+                    begin="0s"
+                    dur="2s"
+                    repeatCount="indefinite"
+                />
+            </path>   
+        </g>
+        <g>
+            <path d="M5 18 l12 0 -10 10 12 0">
+                <animateTransform attributeName="transform"
+                    type="scale"
+                    additive="sum" 
+                    from="1"
+                    to=".6"
+                    begin="0s"
+                    dur="2s"
+                    repeatCount="indefinite"
+                />
+                <animateTransform attributeName="transform" 
+                    type="translate"
+                    additive="sum" 
+                    from="0 0"
+                    to="15 -2"
+                    begin="0s"
+                    dur="2s"
+                    repeatCount="indefinite"
+                />
+            </path>   
+        </g>
+        <g>
+            <path d="M5 18 l12 0 -10 10 12 0">
+                <animate attributeName="opacity" 
+                    values="0;0;1;" 
+                    dur="2s" 
+                    repeatDur="indefinite">                    
+                </animate>
+            </path>   
+        </g>
+    </g>
+    
+</svg>
